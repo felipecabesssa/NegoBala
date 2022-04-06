@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: azure;
+    padding-bottom: 20px;
+}
+
+.Desktop img{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Mobile {
+    display: none;
+}
+
+/* ---------- Bloco de texto ---------- */
+
+.gridContainer{
+    padding: 0 30px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 15px 1fr;
+}
+
+.marcacaoAmarela{
+    height: 100px;
+    background-color: yellow;
+}
+
+.gridItem1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+/* ------------------------------------ */
+
+/* ---------- Lista trampos pro 2019 ---------- */
+.listaPro19{
+    margin-top: -40px;
+    margin-left: 50px;
+    float: left; 
+    padding-right: 20px;
+}
+
+.listaPro19 li{
+    padding-bottom: 10px;
+}
+
+.continuacaoHistoria{
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.imgPequena{
+    width: 350px;
+    padding-left: 50px;
+}
+
+/* ---------- Revistas ---------- */
+
+.gridContainerRevistas{
+    padding: 0 30px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 15px 1fr;
+    margin-bottom: -40px;
+}
+
+/* ---------- Pró models ---------- */
+
+.fotoDupla{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.imgPequenaDupla{
+    width: 200px;
+    height: 200px;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+
+@media (max-width: 500px)
+{
+    .Mobile img{
+        margin-top: 10px;
+        display: block;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Mobile {
+        display: block;
+    }
+
+    .Desktop {
+        display: none;
+    }
+
+}
