@@ -89,6 +89,21 @@ body {
     margin-left: 20px;
 }
 
+/* ---------- Juiz, participações etc ---------- */
+
+.juradoNovo{
+    margin-top: -40px;
+    margin-left: 70px;
+}
+
+/* ---------- Videos e videos partes ---------- */
+
+.gridContainerVideos{
+    padding: 0 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 @media (max-width: 500px)
 {
